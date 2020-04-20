@@ -1,0 +1,44 @@
+html {
+  background-color: gray;
+  overflow: scroll;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+.button-map {
+  background-color: rgb(218, 203, 185);
+  border-width: 2px;
+  border-color: rgb(192, 179, 145);
+  flex-grow: 1;
+  height: 70px;
+}
+
+.button-location {
+  background-color: rgb(218, 203, 185);
+  border-width: 2px;
+  border-color: rgb(192, 179, 145);
+  flex-grow: 1;
+  height: 50px;
+}
+
+.button-type {
+  background-color: rgb(231, 221, 209);
+  border-width: 2px;
+  border-color: rgb(192, 179, 145);
+  flex-grow: 1;
+  height: 35px;
+}
+
+.item {
+  flex-grow: 1;
+  width: 625px;
+  height: 500px;
+}
+
+.active {
+  background-color: lightblue;
+}
