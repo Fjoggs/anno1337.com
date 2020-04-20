@@ -8,19 +8,26 @@
 <body>
     <h1>STRÆTS</h1>
     <header>
+        <nav id="navbar-color" class="container">
+            <button id="blue" class="color blue" onClick="onClickColor(event)"></button>
+            <button id="orange" class="color orange" onClick="onClickColor(event)"></button>
+            <button id="yellow" class="color yellow" onClick="onClickColor(event)"></button>
+            <button id="green" class="color green" onClick="onClickColor(event)"></button>
+            <button id="purple" class="color purple" onClick="onClickColor(event)"></button>
+        </nav>
         <nav id="navbar-map" class="container">
-            <button id="cache" class="button-map active" onClick="onClickMap(event)">CACHE</button>
-            <button id="cobble" class="button-map" onClick="onClickMap(event)">COBBLE</button>
-            <button id="mirage" class="button-map" onClick="onClickMap(event)">MIRAGE</button>
-            <button id="nuke" class="button-map" onClick="onClickMap(event)">NUKE</button>
-            <button id="overpass" class="button-map" onClick="onClickMap(event)">OVERPASS</button>
-            <button id="train" class="button-map" onClick="onClickMap(event)">TRAIN</button>
+            <button id="cache" class="map active" onClick="onClickMap(event)">CACHE</button>
+            <button id="cobble" class="map" onClick="onClickMap(event)">COBBLE</button>
+            <button id="mirage" class="map" onClick="onClickMap(event)">MIRAGE</button>
+            <button id="nuke" class="map" onClick="onClickMap(event)">NUKE</button>
+            <button id="overpass" class="map" onClick="onClickMap(event)">OVERPASS</button>
+            <button id="train" class="map" onClick="onClickMap(event)">TRAIN</button>
         </nav>
         <nav id="navbar-location" class="container">
-            <button id="all-locations" class="button-location active" onClick="onClick(event)">ALL</button>
-            <button id="a-site" class="button-location" onClick="onClick(event)">A-SITE</button>
-            <button id="b-site" class="button-location" onClick="onClick(event)">B-SITE</button>
-            <button id="mid" class="button-location" onClick="onClick(event)">MID</button>
+            <button id="all-locations" class="location active" onClick="onClick(event)">ALL</button>
+            <button id="a-site" class="location" onClick="onClick(event)">A-SITE</button>
+            <button id="b-site" class="location" onClick="onClick(event)">B-SITE</button>
+            <button id="mid" class="location" onClick="onClick(event)">MID</button>
         </nav>
         <nav id="navbar-type" class="container">
             <button id="all-types" class="button-type active" onClick="onClick(event)">All</button>

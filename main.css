@@ -3,24 +3,58 @@ html {
   overflow: scroll;
 }
 
+img {
+  border-radius: 5px;
+}
+
 .container {
   display: flex;
   flex-flow: row wrap;
+  margin: 5px;
 }
 
-
-.button-map {
+button {
   background-color: rgb(218, 203, 185);
   border-width: 2px;
-  border-color: rgb(192, 179, 145);
+  border: 0px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(190, 170, 142)
+}
+
+.color {
+  width: 20%;
+  height: 30px;
+}
+
+.blue {
+  background-color: #6f9ed2;
+}
+
+.orange {
+  background-color: #ed5f01;
+}
+
+.yellow {
+  background-color: #f8fc00;
+}
+
+.green {
+  background-color: #07a04e;
+}
+
+.purple {
+  background-color: #810081;
+}
+
+.map {
   flex-grow: 1;
   height: 70px;
 }
 
-.button-location {
-  background-color: rgb(218, 203, 185);
-  border-width: 2px;
-  border-color: rgb(192, 179, 145);
+.location {
   flex-grow: 1;
   height: 50px;
 }
